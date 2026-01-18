@@ -44,5 +44,24 @@
     <div class="overlay" id="overlay"></div>
 
     <script src="wedding_gifts_js.js"></script>
+    
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyD9eUxWb0AK81XT9QfYrPyRv_XujzLZRaQ",
+    authDomain: "giftslist-f2b5d.firebaseapp.com",
+    projectId: "giftslist-f2b5d",
+    storageBucket: "giftslist-f2b5d.firebasestorage.app",
+    messagingSenderId: "360817462855",
+    appId: "1:360817462855:web:98eda1cc0950301dadab62"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+  
+  window.firebaseApp = app;
+</script>
 </body>
 </html>
