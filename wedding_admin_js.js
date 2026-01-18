@@ -1,5 +1,5 @@
 // Total de presentes disponíveis
-const TOTAL_GIFTS = 60;
+const TOTAL_GIFTS = 59;
 
 // Aguardar Firebase estar pronto
 function waitForFirebase() {
