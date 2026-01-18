@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentes Recebidos - Admin</title>
+    <link rel="stylesheet" href="wedding_admin_css.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Presentes Escolhidos</h1>
+        <p>Veja quem escolheu cada presente</p>
+    </div>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalGifts">0</div>
+                <div class="stat-label">Presentes Escolhidos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalAvailable">0</div>
+                <div class="stat-label">Ainda Disponíveis</div>
+            </div>
+        </div>
+
+        <div class="gifts-list" id="giftsList">
+            <!-- Os presentes serão carregados via JavaScript -->
+        </div>
+
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <p>Nenhum presente foi escolhido ainda</p>
+        </div>
+
+        <button class="btn-clear" id="clearBtn">Limpar Todos os Dados</button>
+    </div>
+
+    <script src="wedding_admin_js.js"></script>
+</body>
+</html>

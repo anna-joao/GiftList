@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes - Nosso Casamento</title>
+    <link rel="stylesheet" href="wedding_gifts_css.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Lista de Presentes</h1>
+        <p>Escolha um item para nos presentear!</p>
+    </div>
+
+    <div class="container">
+        <div class="gift-grid" id="giftGrid">
+            <!-- Os itens serão carregados via JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal de Seleção -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="">
+            <div class="form-group">
+                <label for="guestName">Seu Nome:</label>
+                <input type="text" id="guestName" placeholder="Digite seu nome completo">
+            </div>
+            <button id="confirmBtn" class="btn-confirm">Confirmar Presente</button>
+        </div>
+    </div>
+
+    <!-- Modal de Agradecimento -->
+    <div id="thanksModal" class="modal">
+        <div class="modal-content thanks">
+            <h2>Muito Obrigado!</h2>
+            <p>Seu presente foi registrado com sucesso!</p>
+            <p class="redirect-msg">Redirecionando...</p>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="wedding_gifts_js.js"></script>
+</body>
+</html>

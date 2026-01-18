@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25vh;
+    background-image: url('WhatsApp Image 2026-01-17 at 20.59.23.jpg');
+    background-size: cover;
+    background-position: 40% 40%;
+    background-repeat: no-repeat;
+    font-family: 'Georgia', serif;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 4.5rem;
+    color: #b0914a;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 20px;}
+
+.cta-button {
+    padding: 18px 50px;
+    font-size: 1.2rem;
+    background: #c9a961;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 20px rgba(201, 169, 97, 0.4);
+    z-index: 2;
+    position: relative;
+}
+
+.cta-button:hover {
+    background: #b8954d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(201, 169, 97, 0.6);
+}
+
+.cta-button:active {
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 25px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .cta-button {
+        padding: 15px 40px;
+        font-size: 1rem;
+    }
+}

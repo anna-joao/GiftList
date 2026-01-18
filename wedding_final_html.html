@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! - Nosso Casamento</title>
+    <link rel="stylesheet" href="wedding_final_css.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="coupleVideo" autoplay loop muted playsinline>
+            <source src="video-casal.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+        
+        <div class="overlay-content" id="overlayContent">
+            <div class="message-box">
+                <h1 class="main-title">💕 Obrigado! 💕</h1>
+                <p class="subtitle">Seu presente significa muito para nós!</p>
+                <div class="hearts">
+                    <span class="heart">❤️</span>
+                    <span class="heart">💖</span>
+                    <span class="heart">💝</span>
+                </div>
+                <a href="index.html" class="btn-home">Voltar à Lista</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Fechar o popup após 5 segundos
+        setTimeout(() => {
+            const overlay = document.getElementById('overlayContent');
+            overlay.style.opacity = '0';
+            overlay.style.transition = 'opacity 1s ease-out';
+            
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 1000);
+        }, 5000);
+    </script>
+</body>
+</html>
