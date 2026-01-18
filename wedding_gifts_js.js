@@ -3,7 +3,7 @@ const gifts = [
     // Móveis e Decoração
     { 
         id: 1, 
-        name: 'Cama de casal', 
+        name: 'Cama de casal King', 
         image: 'Imagens/3c2b1df85505a076d40ef8d4f4d24fac.jpg' 
     },
     { 
@@ -44,22 +44,22 @@ const gifts = [
     // Roupas de Cama e Banho
     { 
         id: 9, 
-        name: 'Jogo de cama casal', 
+        name: 'Jogo de cama casal King', 
         image: 'Imagens/ee0c3168726cbb49ccf90aee2110277a.jpg' 
     },
     { 
         id: 10, 
-        name: 'Jogo de cama casal, cobre-leito/edredom', 
+        name: 'Jogo de cama casal, cobre-leito/edredom King', 
         image: 'Imagens/1eee544292e9b7a72d56a17759d12809.jpg' 
     },
     { 
         id: 11, 
-        name: 'Jogo de cama casal, cobre-leito/edredom', 
+        name: 'Jogo de cama casal, cobre-leito/edredom King', 
         image: 'Imagens/5284e37ba067bbad50548a1fd43e9a73.jpg' 
     },
     { 
         id: 12, 
-        name: 'Jogo de cama casal, cobre-leito/edredom', 
+        name: 'Jogo de cama casal, cobre-leito/edredom King', 
         image: 'Imagens/a5ab4a697ab72984827e250b934b37b1.jpg' 
     },
     { 
