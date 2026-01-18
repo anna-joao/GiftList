@@ -1,5 +1,5 @@
 // Total de presentes disponíveis
-const TOTAL_GIFTS = 12;
+const TOTAL_GIFTS = 59;
 
 // Carregar dados dos presentes
 function loadGiftsData() {
