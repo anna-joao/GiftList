@@ -57,31 +57,6 @@ h2 {
     margin-top: 5px;
     margin-bottom: 20px;}
 
-.cta-button {
-    padding: 18px 50px;
-    font-size: 1.2rem;
-    background: #c9a961;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: 'Georgia', serif;
-    letter-spacing: 1px;
-    box-shadow: 0 5px 20px rgba(201, 169, 97, 0.4);
-    z-index: 2;
-    position: relative;
-}
-
-.cta-button:hover {
-    background: #b8954d;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(201, 169, 97, 0.6);
-}
-
-.cta-button:active {
-    transform: translateY(-1px);
-}
 
 @media (max-width: 768px) {
     .container {
@@ -96,8 +71,4 @@ h2 {
         font-size: 1.8rem;
     }
     
-    .cta-button {
-        padding: 15px 40px;
-        font-size: 1rem;
-    }
 }
